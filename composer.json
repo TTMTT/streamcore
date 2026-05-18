@@ -1,0 +1,16 @@
+{
+    "name": "sysgen/streamcore",
+    "description": "PHP Runtime Optimizer",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Sysgen\\Streamcore\\": "src/"
+        },
+        "files": ["fn.php"]
+    },
+    "require": {
+        "php": ">=8.2",
+        "ext-openssl": "*"
+    }
+}
