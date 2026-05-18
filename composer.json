@@ -2,12 +2,14 @@
     "name": "sysgen/streamcore",
     "description": "PHP Runtime Optimizer",
     "type": "library",
-    "version": "1.0.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sysgen\\Streamcore\\": "src/"
         },
-        "files": ["fn.php"]
+        "files": [
+            "fn.php"
+        ]
     },
     "require": {
         "php": ">=8.2",
